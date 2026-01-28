@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Time Table - BE IV Semester IT-2</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .header h2 {
+            margin: 5px 0;
+            color: #333;
+        }
+
+        .room-info {
+            text-align: right;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        table {
+            width: 100%;
+            margin: 0 auto;
+            border-collapse: collapse;
+            background-color: white;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            font-weight: bold;
+            border: 1px solid #333;
+        }
+
+        td {
+            padding: 10px;
+            border: 1px solid #333;
+            text-align: center;
+        }
+
+        .day-column {
+            background-color: #e8f5e9;
+            font-weight: bold;
+        }
+
+        .time-row {
+            background-color: #f1f1f1;
+            font-size: 12px;
+        }
+
+        .break-cell {
+            background-color: #ffebee;
+            font-weight: bold;
+            writing-mode: vertical-rl;
+            text-orientation: mixed;
+        }
+
+        .lunch-cell {
+            background-color: #fff9c4;
+            font-weight: bold;
+            writing-mode: vertical-rl;
+            text-orientation: mixed;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h2>Class Time Table for the AY 2025-26 EVEN Semester</h2>
+        <h3>Class: BE - IV Semester IT-2</h3>
+    </div>
+    <div class="room-info">Room No: L-301</div>
+
+    <table>
+        <tr>
+            <th rowspan="2">Period<br>Day/Time</th>
+            <th>I</th>
+            <th>II</th>
+            <th>III</th>
+            <th rowspan="2">12:15 to<br>1:00 PM</th>
+            <th>IV</th>
+            <th>V</th>
+            <th>VI</th>
+        </tr>
+        <tr class="time-row">
+            <th>9:10 to 10:10 AM</th>
+            <th>10:10 to 11:10 AM</th>
+            <th>11:10 to 12:10 PM</th>
+            <th>1:00 to 2:00 PM</th>
+            <th>2:00 to 3:00 PM</th>
+            <th>3:05 to 4:05 PM</th>
+        </tr>
+        <tr>
+            <td class="day-column">MONDAY</td>
+            <td>PE-I</td>
+            <td>EEA</td>
+            <td>PQT</td>
+            <td rowspan="5" class="lunch-cell">L U N C H</td>
+            <td>DBMS</td>
+            <td>LIBRARY</td>
+            <td>SPORTS</td>
+        </tr>
+        <tr>
+            <td class="day-column">TUESDAY</td>
+            <td colspan="2">DBMS LAB (B1)<br>MP-I (B3)</td>
+            <td>LIBRARY (B3)</td>
+            <td rowspan="5" class="break-cell">B R E A K</td>
+            <td>PQT</td>
+            <td>EEA</td>
+            <td>ES</td>
+        </tr>
+        <tr>
+            <td class="day-column">WEDNESDAY</td>
+            <td>EAD</td>
+            <td>PE-I</td>
+            <td colspan="2"> EADLAB</td>
+            <td>MP-I (B1)</td>
+        </tr>
+        <tr>
+            <td class="day-column">THURSDAY</td>
+            <td>DBMS</td>
+            <td>EEA</td>
+            <td>EAD</td>
+            <td>PE-I</td>
+            <td>ES</td>
+            <td>PQT (T)</td>
+        </tr>
+        <tr>
+            <td class="day-column">FRIDAY</td>
+            <td colspan="2">DBMS LAB</td>
+            <td>LIBRARY (B2)</td>
+            <td>DBMS</td>
+            <td>EAD</td>
+            <td>MENTORING</td>
+        </tr>
+    </table>
+</body>
+
+</html>
