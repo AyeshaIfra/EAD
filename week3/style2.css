@@ -1,0 +1,13 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+.box {
+
+    padding:25px;
+    border:5px solid blue;
+
+    margin:5px;
+    color:green;
+}
