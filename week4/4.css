@@ -1,0 +1,16 @@
+h1 {
+    color:blueviolet;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+}
+.page {
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 5px red;
+
+}
+
+ol:hover {
+    display: inline-block;
+    padding:5px 5px;
+}
