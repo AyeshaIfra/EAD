@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Positioning Example</title>
+
+  <style>
+    .card_css {
+        width:500px;
+        height:500px;
+        background-color: aqua;
+    }
+    .card{
+        position:relative;
+        margin:20px;
+    }
+    .header {
+        position:sticky;
+        top:0;
+        background:#333;
+        color:white;
+        padding:15px;
+        margin:15px;
+
+    }
+    .badge {
+        position:absolute;
+        left:10px;
+        width:300px;
+        padding:20px;
+    }
+    .close {
+        position:absolute;
+        right:10px;
+    }
+    .chat {
+        position:fixed;
+        bottom:20px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Sticky header -->
+   <div class="card_css">
+  <div class="header">
+    My App
+  </div>
+
+  <!-- Card -->
+  <div class="card">
+    <span class="badge">NEW</span>
+    <button class="close">×</button>
+    <p>This is a product card used in apps.</p>
+  </div>
+
+  <!-- Fixed chat button -->
+  <div class="chat">
+    💬
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,12 @@
+.wrap{ display:flex; }
+
+.box{
+ flex:1;
+ padding:50px;
+ text-align:center;
+ background:lightcoral;
+}
+
+@media(max-width:768px){
+ .wrap{ flex-direction:column; }
+}
